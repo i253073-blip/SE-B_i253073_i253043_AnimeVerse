@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .li{
+            color: rgb(255, 255, 255);
+    
+        } 
+        .nav{
+            display: flex;
+            gap: 100px;
+            background-color:#1a1a1a;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+          
+        }
+        .list{
+            display: flex;
+            gap: 100px;
+        }
+        .search{
+            margin-top: 20px;
+        }
+        .cart{
+            margin-top: 20px;
+        }
+        .logo{
+            margin-top: 20px;
+        }
+        .carticon{
+           width: 20px;
+           height: 20px;
+        }
+        .searchicon{
+            width: 20px;
+           height: 20px;
+    
+        }
+    .wish
+    {
+         width: 20px;
+           height: 20px;
+           margin-top: 20px;
+    }
+    </style>
+</head>
+<body>
+    <header class="nav">
+        <div class="logo">
+        logo 
+        </div>
+        <div>
+            <nav >
+      <ul class="list">
+        <li><a class="li" href="#">Home</a></li>
+        <li><a class="li" href="#">Products</a></li>
+        <li><a class="li" href="About.html" id="aboutlog">About</a></li>
+        <li><a class="li" href="#">Contact</a></li>
+      </ul>
+    </nav>
+        </div>
+    <div class="search">
+        <input type="text" placeholder="Search" >
+        <img class="searchicon" src="https://www.bing.com/th/id/OIP._RTO9yp1xH5aQA0vS7fpHAHaHW?w=184&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.7&pid=3.1&rm=2">
+    </div> 
+    
+     <div class="cart" >
+  <img class="carticon" src="https://www.bing.com/th/id/OIP.E6r8A5BoEBA1Wd_OtGiAkAHaHa?w=193&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.7&pid=3.1&rm=2" class="cart-box-icon" alt="Cart">
+  <span>Cart</span>
+</div>
+<div class="wishlist-box">
+  <img class="wish" src="https://www.bing.com/th/id/OIP.D57xO8xhyTeHNrt31QS9MwHaHa?w=195&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.7&pid=3.1&rm=2" alt="Wishlist" class="icon">
+  <span id="wishlist-count">0</span>
+</div>
+
+    
+    </header>
+    <script>
+        document.getElementById("aboutLink").addEventListener("click", function() {
+        console.log("User clicked About page link");
+    });
+    </script>
+</body>
+</html>
