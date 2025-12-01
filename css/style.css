@@ -1,0 +1,545 @@
+/* Home Page Styling */
+.home-page {
+    background: #1a1a1a;
+    color: #fff;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Top Bar */
+.home-page .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.home-page .top-bar h1 {
+    font-size: 36px;
+    color: #B81616;
+}
+
+.home-page .top-bar .action-login h2 {
+    font-size: 20px;
+    color: #FF7700;
+    margin: 0;
+}
+
+.home-page .top-bar .action-login h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Navigation Menu */
+.home-page nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.home-page nav ul li {
+    margin: 0 15px;
+}
+
+.home-page nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.home-page nav ul li a:hover {
+    color: #FF7700;
+}
+
+/* CTA Button */
+.home-page .cta-container {
+    margin: 30px 0;
+}
+
+.home-page .cta-container button {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background: #FF7700;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.home-page .cta-container button:hover {
+    background: #B81616;
+    text-decoration: underline;
+    
+}
+
+/* Hero Image */
+.home-page .hero-image {
+    margin: 20px 0;
+}
+
+.home-page .hero-image img {
+    width: 45%;
+    max-width: 500px;
+    border-radius: 12px;
+
+    box-shadow: 0 0 25px rgba(168, 10, 10, 0.6);
+    transition: transform 0.3s;
+}
+
+.home-page .hero-image img:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+/* Sign-Up Page Styling */
+.signup-page {
+    background: #1a1a1a; /* Dark background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* vertically center */
+    padding: 20px;
+}
+
+/* Header */
+.signup-page header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #B81616;
+    text-align: center;
+}
+
+.signup-page header a {
+    color: #FF7700;
+    text-decoration: solid;
+    font-size: 18px;
+    
+}
+
+.signup-page header a:hover {
+    text-decoration: underline;
+    
+}
+
+/* Page Title */
+.signup-page h2 {
+    margin: 20px 0;
+    font-size: 28px;
+    text-align: center;
+    color: #FF7700;
+}
+.signup-page h2:hover {
+    text-shadow: 2px 2px 5px #ce0d0d;
+}
+
+/* Form */
+.signup-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #2b2b2b;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 119, 0, 0.4);
+    width: 350px;
+}
+
+/* Social Buttons */
+.signup-page .social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px 0;
+    margin: 10px 0;
+    border-radius: 8px;
+    background: #FF7700;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.signup-page .social-btn img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.signup-page .social-btn:hover {
+    background: #B81616;
+}
+
+/* Input Fields */
+.signup-page input[type="text"],
+.signup-page input[type="email"],
+.signup-page input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: #3a3a3a;
+    color: #fff;
+}
+
+
+
+/* Submit Button */
+.signup-page button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 8px;
+    background: #FF7700;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.signup-page button:hover {
+    background: #B81616;
+}
+
+
+/* Contact Us Page Styling */
+.contact-page {
+    background: #1a1a1a; /* Dark background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+/* Header inside Contact Page */
+.contact-page header h1 {
+    font-size: 36px;
+    color: #B81616;
+    text-align: center;
+
+}
+
+
+
+/* Navigation */
+.contact-page nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.contact-page nav ul li {
+    margin: 0 15px;
+}
+
+.contact-page nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.contact-page nav ul li a:hover {
+    color: #FF7700;
+}
+
+/* Page Title & Description */
+.contact-page h2 {
+    font-size: 28px;
+    margin: 20px 0 5px 0;
+    color: #FF7700;
+    text-align: center;
+}
+
+.contact-page p {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+.contact-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #2b2b2b;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 119, 0, 0.4);
+    width: 400px;
+}
+
+
+.contact-page form input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background: #3a3a3a;
+    color: #fff;
+}
+
+
+/* Submit Button */
+.contact-page form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #FF7700;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-page form button:hover {
+    background: #B81616;
+}
+
+.product-page {
+    background: #1a1a1a;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+
+.product-page header h1 {
+    font-size: 36px;
+    color: #B81616;
+}
+
+.product-page nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.product-page nav ul li {
+    margin: 0 15px;
+}
+
+.product-page nav ul li a {
+    color: white;
+    font-size: 18px;
+}
+
+.product-page nav ul li a:hover {
+    color: #FF7700;
+}
+
+/* Search Bar */
+.product-page .search-bar {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.product-page .search-bar input {
+    width: 50%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: #3a3a3a;
+    color: #fff;
+}
+
+.product-page .search-bar input::placeholder {
+    color: #ccc;
+}
+
+/* Anime Grid */
+.product-page .anime-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin-top: 30px;
+}
+
+/* Individual Anime Card */
+.product-page .anime-card {
+    background: #2b2b2b;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 0 15px rgba(255, 119, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-page .anime-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(255, 119, 0, 0.6);
+}
+
+.product-page .anime-card img {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.product-page .anime-card p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FF7700;
+}
+
+
+body {
+    background: #1a1a1a;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+.checkout-page header h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #B81616;
+}
+
+.checkout-page nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.checkout-page nav ul li {
+    margin: 0 15px;
+}
+
+.checkout-page nav ul li a {
+    color: white;
+    font-size: 18px;
+}
+
+.checkout-page nav ul li a:hover {
+    color: #FF7700;
+}
+
+/* Checkout Heading */
+.checkout-title {
+    text-align: center;
+    color: #FF7700;
+    font-size: 32px;
+    margin: 30px 0;
+}
+
+
+/* Main Checkout Layout */
+.checkout-container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 20px;
+}
+
+/* BILLING DETAILS FORM */
+.checkout-form {
+    background: #2b2b2b;
+    width: 55%;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(255, 119, 0, 0.4);
+}
+
+.checkout-form h3 {
+    text-align: center;
+    color: #FF7700;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.checkout-form label {
+    display: block;
+    margin: 12px 0 5px;
+    font-weight: bold;
+}
+
+.checkout-form input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: #1a1a1a;
+    color: #fff;
+    margin-bottom: 10px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.checkout-form input:focus {
+    border: 2px solid #FF7700;
+}
+
+/* ORDER SUMMARY BOX */
+.order-summary {
+    background: #2b2b2b;
+    width: 40%;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(255, 119, 0, 0.4);
+}
+
+.order-summary h3 {
+    text-align: center;
+    color: #FF7700;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    font-size: 18px;
+}
+
+.summary-item.total p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Checkout Button */
+.checkout-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background: #FF7700;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.checkout-btn:hover {
+    background: #B81616;
+    transform: scale(1.03);
+}
+
+/* HR line styling */
+.order-summary hr {
+    border: 1px solid #444;
+    margin: 15px 0;
+}
