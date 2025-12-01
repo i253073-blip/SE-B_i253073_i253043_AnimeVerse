@@ -1,0 +1,47 @@
+
+    body {
+        margin: 0%;
+        padding: 0%;
+    }
+    .our{
+         background-color: #8e8ec8;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    .story{
+        padding: 40px 20px;
+        max-width: 1000px;
+        margin: auto;
+    }
+    .ourstory{
+        padding-left: 350px;
+    }
+    .imgs{
+        display: flex;
+        gap: 200px;
+    }
+    .team{
+        padding: 40px 20px;
+        max-width: 1000px;
+        margin: auto;
+        padding-left: 200px;
+        background-color: #8e8ec8;
+    }
+    .meet{
+        padding-left: 230px;
+    }
+    .team-member img {
+        width: 100%;
+        border-radius: 10px;
+    }
+      .achievement-card {
+        background-color: #f2f2f2;
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+        flex: 1 1 200px;
+    }
+    .Achievements{
+        display: flex;
+    }
